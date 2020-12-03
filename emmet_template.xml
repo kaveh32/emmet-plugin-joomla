@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system">
+	<name>emmet_template</name>
+	<author>m.alaei</author>
+	<creationDate>December 2020</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>kaveh323471@gmail.com</authorEmail>
+	<authorUrl>https://github.com/kaveh32</authorUrl>
+	<version>1.0.0</version>
+	<description>Emmet is a plugin for many popular text editors which greatly improves HTML and CSS. 1. enable plugin 2.go to Extensions>Templates>Templates 3.Choose one of the templates 4.Select a file to edit </description>
+	<files>
+		<filename plugin="emmet_template">emmet_template.php</filename>
+		<filename>emmet_template.xml</filename>
+		<filename>index.html</filename>
+		<folder>js</folder>
+	</files>
+	
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
